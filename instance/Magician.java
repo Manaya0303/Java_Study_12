@@ -1,6 +1,6 @@
 package instance;
 
-public class Magician extends Charactor {
+public class Magician {
 	
 	private String name;
 	private int hp;
@@ -12,12 +12,6 @@ public class Magician extends Charactor {
 	public void attack() {
 		System.out.println(this.name + "の攻撃！");
 		System.out.println(this.at + "のダメージ");
-	}
-	
-	public void defence() {
-		System.out.println(this.name + "は防御の姿勢をとった");
-		this.df = this.df + 10;
-		System.out.println("防御力が10upし、" + this.df + "になった");
 	}
 	
 	public void attack_magic() {

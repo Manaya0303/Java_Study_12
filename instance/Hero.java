@@ -1,6 +1,6 @@
 package instance;
 
-public class Hero {
+public class Hero extends Charactor {
 	
 	//フィールド
 	private String name;	
